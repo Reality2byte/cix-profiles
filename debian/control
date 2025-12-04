@@ -11,10 +11,10 @@ Build-Depends: debhelper (>=12~),
 Package: task-cix-chromium
 Architecture: all
 Priority: optional
-Depends: chromium-cix,
-         chromium-common-cix,
+Depends: chromium,
          ${misc:Depends},
-Provides: chromium-sandbox
+Provides: chromium-sandbox,
+          x-terminal-emulator,
 Description: Metapackages for CIX Chromium
  This package provides CIX Chromium.
 
