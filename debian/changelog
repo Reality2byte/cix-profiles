@@ -1,3 +1,17 @@
+cix-profiles (0.3.6) noble; urgency=medium
+
+  [ Zhaoming Luo ]
+  * fix: task-cix-isp also depends on task-cix-drm
+  * fix: either cix-isp-driver or cix-isp-driver-v4l2 can be used
+
+  [ ZHANG Yuntian ]
+  * fix: update dependencies
+  * fix: explicitly reference virtual packages
+  * fix: make vendor packages mandatory
+  * fix: update chromium hacks
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 15 Dec 2025 09:09:49 +0000
+
 cix-profiles (0.3.5) noble; urgency=medium
 
   [ Zhaoming Luo ]
